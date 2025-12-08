@@ -20,8 +20,8 @@ class Product extends Component {
             products: PRODUCTS
         }
         this.handleFilter = this.handleFilter.bind(this)
-        this.handleDestroy = this.handleDestroy.bind(this)
         this.handleSave = this.handleSave.bind(this)
+        this.handleDestroy = this.handleDestroy.bind(this)
     }
 
     handleFilter(filterInput) {
